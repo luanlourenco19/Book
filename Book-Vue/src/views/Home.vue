@@ -21,7 +21,7 @@
             </Button>
         </div>
       </Row>
-    </div>
+    </div> 
   </div>
 </template>
 
