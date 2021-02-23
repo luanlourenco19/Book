@@ -1,0 +1,127 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app,
+template,
+.container {
+  width: 100%;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.ivu-tooltip-inner {
+  white-space: inherit !important;
+}
+
+.description {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.section {
+  margin-top: 50px;
+  float: left;
+  width: 100%;
+}
+
+.divider {
+  width: 50%;
+  float: left;
+}
+
+.content {
+  width: 90%;
+  margin: 0 5%;
+}
+
+.content-form {
+  width: 70%;
+  margin: 0 15%;
+  }
+
+.top {
+  margin-top: 25px;
+}
+
+.bottom {
+  margin-bottom: 25px;
+}
+
+
+.margem-botoes {
+  margin-right: 20px;
+  margin-left: 20px;
+
+}
+
+strong {
+  display: block;
+}
+
+.center-botoes {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.align-left-botoes {
+  display: flex !important;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.align-right-botoes {
+  display: flex !important;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.title {
+  width: 100% !important;
+  float: left !important;
+  height: 25px !important;
+  background: #3498db !important;
+  text-align: center !important;
+  color: #fff !important;
+  font-weight: 300 !important;
+  line-height: 2 !important;
+  font-size: small !important;
+  box-shadow: 2px 2px 2px #e1e1e1 !important;
+}
+
+.title-right {
+  width: 38% !important;
+  float: left !important;
+  height: 25px !important;
+  background: #3498db !important;
+  text-align: center !important;
+  color: #fff !important;
+  font-weight: 300 !important;
+  line-height: 2 !important;
+  font-size: small !important;
+  box-shadow: 2px 2px 2px #e1e1e1 !important;
+}
+
+.title-left {
+  width: 60% !important;
+  float: left !important;
+  height: 25px !important;
+  background: #3498db !important;
+  text-align: center !important;
+  color: #fff !important;
+  font-weight: 300 !important;
+  line-height: 2 !important;
+  font-size: small !important;
+  box-shadow: 2px 2px 2px #e1e1e1 !important;
+  margin-left: 2%;
+}
+
+.tamanhoLinha td {
+  height: 30px;
+ }
